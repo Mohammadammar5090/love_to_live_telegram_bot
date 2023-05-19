@@ -16,3 +16,5 @@ This program, known as the bot, has been meticulously crafted for the "love to l
 To enhance the initiative supervisors' experience, numerous features have been implemented. These include reminders for volunteers to complete the form, the ability to send group messages and have them persist in the conversation, and the ability to identify individuals who fall short in their obligations, among other valuable capabilities.
 
 Telegram was selected as the preferred application due to its user-friendly interface and an array of impressive features. Notably, it permits the transmission of videos up to 2 gigabytes, offers customizable keyboards that can be effortlessly modified to suit the bot's purpose, and encompasses various other noteworthy functionalities.
+
+I used the replit.com ,flask code and UptimeRobot.com instead of a paid server
