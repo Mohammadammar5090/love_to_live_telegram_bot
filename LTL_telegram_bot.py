@@ -10,8 +10,8 @@ import openai
 from keep_alive import keep_alive
 import telebot
 
-bot = telebot.TeleBot("6027423492:AAFr0Ly8H9DuTN2JuKq9VwG0PNaSSkDyoC8")
-openai.api_key = "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"
+bot = telebot.TeleBot("YOUR API KEY")
+openai.api_key = "YOUR API KEY"
 
 bot.set_my_commands([
     types.BotCommand(command="/fill_the_form", description="ابدأ بتعبئة النموذج"),
@@ -25,9 +25,9 @@ bot.set_my_commands([
 ])
 
 #######################################
-gc = gspread.service_account(filename="data_ltl.json")
+gc = gspread.service_account(filename="YOUR PATH.json")
 sh = gc.open("احصائيات الفصل الثاني")
-wks = sh.worksheet("الاسبوع رقم(7) ")
+wks = sh.worksheet("الاسبوع رقم(0) ")
 
 #######################################
 sh2 = gc.open("استرداد")
@@ -37,9 +37,9 @@ wks2 = sh2.worksheet("الورقة1")
 ###############################################################################################################################
 ################################################### GET DATA FROM #############################################################
 
-link = "https://docs.google.com/spreadsheets/d/"
+link = " link to Excel file for volunteer data "
 
-sheat_id = "13-AisgWgw5lVFlenPszq8pvFO02jusY-MDKZPLZzRIk"
+sheat_id = "link --> sheat_id"
 
 df = pd.read_csv(f"https://docs.google.com/spreadsheets/d/{sheat_id}/export?format=csv", index_col=False)
 
