@@ -7,7 +7,7 @@ from datetime import datetime
 import random
 from pytz import timezone
 import openai
-from keep_alive import keep_alive
+from keep_alive import keep_alive  #for replite.com use it to run the code 24/7 if we run it locally remove this line
 import telebot
 
 bot = telebot.TeleBot("YOUR API KEY")
